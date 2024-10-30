@@ -1,17 +1,22 @@
 CSS Box model 
+*****************
+Margin:-
+---------
 
-Margin 
+margin:20px; (space between 20px outside Border)
 
 
-Padding 
+Padding:-
+-------- 
+
+padding:20px; (space between 20px inside Border)
 
 
-
-Border
+Border:-
+-------
 
 border:30px solid black;
 border-top: 10px;
 
 border-width: 0px 10px 30px 20px; (clockwise order of the box)
 border-width: 10px 20px; (top bottom 10px and left right 20px)
-
