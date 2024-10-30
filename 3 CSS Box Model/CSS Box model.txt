@@ -1,0 +1,17 @@
+CSS Box model 
+
+Margin 
+
+
+Padding 
+
+
+
+Border
+
+border:30px solid black;
+border-top: 10px;
+
+border-width: 0px 10px 30px 20px; (clockwise order of the box)
+border-width: 10px 20px; (top bottom 10px and left right 20px)
+

@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+p{
+    margin: 0px;
+    color: aliceblue;
+}
+
+#first{
+    background-color: cadetblue;
+    padding: 20px;
+    border: 20px solid black;
+
+}
+#second{
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+}
+#third{
+    margin-left: 460px;
+    background-color: indianred;
+    border: 10px solid black;
+}
