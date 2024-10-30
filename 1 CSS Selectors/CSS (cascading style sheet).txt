@@ -1,0 +1,90 @@
+CSS (cascading style sheet),Sass and Less
+
+
+Inline:-
+(targeting element)
+<html style="background:blue">
+
+</html>
+
+Internal:-
+(single web page we can use it)
+<html>
+<head>
+<style>
+html{
+background:blue;
+}
+</style>
+</head>
+<body>
+<h1>hello page</h1>
+</body
+</html>
+
+External:-
+(multiple web page we can use it single style.css)
+index.html
+----------
+<html>
+<head>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<h1>hello page</h1>
+</body
+</html>
+
+style.css
+---------
+html{
+background:blue;
+}
+
+
+CSS Selector
+*************
+
+tag selector:-
+-------------
+<h2>hello world</h2>
+
+h2{
+color:red;
+}
+
+class selector:-(class can be used single time in one html file at a time)
+--------------
+<h2 class="red-text" >hello world</h2>
+
+.red-text{
+color:red;
+}
+
+Id selector:-(id can be used multiple time in single html file unique id name)
+------------
+<h2 id="red-text" >hello world</h2>
+
+#red-text{
+color:red;
+}
+
+Attribute selector:-(choosing particular attribute or with value )
+
+<h2 draggable="true" >hello world</h2>
+<h2 draggable="false" >hello world</h2>
+
+h2[draggable="false"]{
+color:red;
+}
+
+Universal selector:-(select all where style sheet active)
+
+
+
+*{
+color:red;
+}
+
+
+
