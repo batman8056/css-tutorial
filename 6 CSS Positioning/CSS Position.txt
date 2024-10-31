@@ -1,0 +1,31 @@
+CSS Position
+*************
+Static
+------
+HTML default flow
+
+
+Relative (based on web page it can move adjust)
+---------
+Position relative to default position 
+
+
+Absolute
+---------
+Position relative to nearest position ancestor 
+or top left corner of webpage
+
+Z-Index: -1; -go behind the box
+
+Fixed
+------
+
+Position relative to top left corner of browser window
+
+
+
+
+
+
+
+
