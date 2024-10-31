@@ -1,0 +1,24 @@
+CSS Float
+********
+
+Wrapping text using float and clear
+-----------------------------------
+index.html:-
+
+<header>content</header>
+<img ..../>
+<p>text...</p>
+<footer>copyright manikandan</footer>
+
+style.CSS:-
+
+header{
+    position:fixed;
+}
+img{
+    float:left;
+}
+footer{
+    clear:left;
+}
+
