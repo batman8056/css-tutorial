@@ -1,0 +1,31 @@
+Position
+---------
+li{
+	color: red;
+	color: blue;  (position of the top to bottom execution so blue can be work here)
+}
+
+Specificity
+------------
+
+li{ color: red; } -tag
+.first-class{ color: red; } -class
+li[draggable]{color: red;} -attribute
+#first-class{ color: red; } -id
+
+Type
+----
+
+1.inline
+2.internal
+3.external
+
+Importance
+-----------
+
+color: red;
+color: green !important; (most important it will execute)
+
+
+
+

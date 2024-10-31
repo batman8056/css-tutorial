@@ -1,0 +1,98 @@
+CSS Selector
+************
+
+<p>yellow color</p>
+<div class="box inner-box">
+<p>yellow color</p>
+</div>
+
+
+style.css
+
+p{
+color: yellow;
+} 
+.inner-box p{
+color: white;
+}
+
+Group (Apply to both element)
+------
+
+selector, selector{
+color: white;
+}
+
+h1,h1{
+color: white;
+}
+
+
+Child (first one parent next one child )
+-------
+syntax:-
+
+selector > selector{
+color: white;
+}
+
+index.html:-
+
+<div class="box" >
+<p>hello world</p>
+</div>
+
+style.css:-
+
+.box > p{
+color: white;
+}
+
+
+
+Descendant (apply to descendent of left side)
+-----------
+selector selector{
+color: white;
+}
+
+<div class="box" >
+<ul>
+<li>hello</li>
+<li>world</li>
+<li>somethink</li>
+</ul>
+</div>
+
+
+.box  li{
+color: white;
+}
+
+Chaining (Apply where ALL selector are true) -super selector
+----------
+Syntax:-
+selectorselector{ (no space one element to another element)
+color: white;
+}
+
+index.html:-
+<div class="box" >
+<ul>
+<li class="done" >hello</li>
+<li class="done" >world</li>
+<li>something</li>
+</ul>
+</div>
+
+style.css:-
+li.done{
+color: white;
+}
+
+
+
+
+
+
+
