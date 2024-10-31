@@ -1,0 +1,17 @@
+CSS Display property
+************
+
+Block
+-----
+block can block entire line we can increase height and width
+
+Inline
+--------
+inline can only used single element
+if we want to set again andagain another tag set inline 
+
+Inline-Block
+--------------
+
+set height and width
+more than two element go on same line

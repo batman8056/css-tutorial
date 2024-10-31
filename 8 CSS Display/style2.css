@@ -1,0 +1,24 @@
+p {
+    color: white;
+  }
+
+  .red2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+
+  .green2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+  }
+
+  .blue2 {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
