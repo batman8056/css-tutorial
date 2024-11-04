@@ -1,11 +1,15 @@
     @media (min-width:0px) and (max-width:480px){
       body{
         background-color: aquamarine;
-      } 
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh;
+          } 
       
       h1{
         text-align: center;
         background-color: white;
+        font-size: 3.5rem;
     }
     h4{
       text-align: left;
@@ -98,6 +102,7 @@
     h1{
         text-align: center;
         background-color: white;
+        font-size: 3.5rem;
     }
     h4{
       text-align: left;
@@ -152,7 +157,7 @@
     background-color: rgb(220, 220, 34);
     position: relative;
     border: 3px solid black;
-    margin-top: 50px
+    margin-top: 10px
 
 }
 .container3 > .third-image{
@@ -168,7 +173,7 @@
 }
   footer{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
   }
   
