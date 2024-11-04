@@ -1,0 +1,28 @@
+Media Queries
+*************
+
+media is actually key word to breakpoint  
+to enter new layer
+
+Adding breakpoint to define responsive layouts
+
+eg:when you are using smaller screen like mobile 
+that time your media query works good
+
+index.html
+<div>
+</div>
+
+style.css:-
+@media (max-width:600px){
+    div{
+        height:100px;
+        width:100px;
+    }
+}
+
+we can set limits also like
+
+@media (max-width:600px) and (min-width:900px)  {
+    in betwen 600 to 900 specify style can apply
+}

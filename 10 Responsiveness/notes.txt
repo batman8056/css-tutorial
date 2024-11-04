@@ -1,0 +1,94 @@
+How to create responsive website
+********************************
+
+
+1.Media Queries
+----------------
+-> When we are using 600px screen that time trigering
+the media querie like mobile and tablet
+
+@media (max-width: 600px){
+   /* CSS for screen below or equal to 600px wide */
+
+}
+
+2.CSS Grid
+------------
+we splite the website into multiple div 
+gride can apply columns and row
+index.html:-
+<div class="gride-container">
+<div class="first card"></div>
+<div class="card"></div>
+<div class="card"></div>
+<div class="card"></div>
+<div class="card"></div>
+</div>
+style.CSS:-
+.gride-container{
+    display: gride;
+    gride-template-columns: 1fr 1fr;
+    gride-template-row: 100px 200px 200px
+    gap:30px;
+}
+.first{
+    gride-column: span 2;
+}
+.card{
+    background-color: blue;
+}
+
+3.CSS Flex box
+--------------
+each of the div contain inside flex
+only work width % only
+
+index.html:-
+<div class="flex-container">
+<div class="first card"></div>
+<div class="second card"></div>
+<div class="card"></div>
+<div class="card"></div>
+</div>
+
+style.css
+.flex-container{
+    display:flex;
+
+}
+.card{
+    background:blue;
+    border: 30px solid white;
+    height: 100px;
+    flex:1;
+}
+.first{
+    flex:2;
+}
+.second{
+    flex:0.5;
+}
+
+
+4.External Frameworks eg:-Bootstrap
+------------------------------------
+some one library we can use here we are not going to create any Frameworks
+someone already wrote the code we just reuse it.
+
+index.html
+<div class="container">
+<div class="row">
+<div class="card col-6">
+card
+</div>
+<div class="card col-2">
+card
+</div>
+<div class="card col-4">
+card
+</div>
+</div>
+</div>
+
+
+
