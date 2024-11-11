@@ -1,42 +1,57 @@
+    
+    /* Mobile screen size */
     @media (min-width:0px) and (max-width:480px){
       body{
         background-color: aquamarine;
         display: flex;
         flex-direction: column;
         min-height: 95vh;
-          } 
-      
+        
+      }
+
+    
       h1{
         text-align: center;
         background-color: white;
         font-size: 3.5rem;
     }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 250px 250px;
+      gap: 30px;
+
+      
+    }
     h4{
       text-align: left;
+      position: absolute;
     }
     
     .container1{
         width: 100%;
         height: 250px;
+        margin-top: 10px;
         background-color: rgb(226, 188, 48);
         position: relative;
         border: 3px solid black;
+        display: grid;
 
     }
     .container1 > .first-image{
       height: 80px;
       width: 70px;
+      
       position: absolute;
+
     }
     .container1 > .para1{
       font-family :'Courier New', Courier, monospace;
-      font-size: 10px;
+      font-size: 55%;
       position: absolute;
-      margin-left: 60px;
+      word-wrap: break-word;
+      margin-top: 15%;
     }
-    
-
-
     .container2{
       width: 100%;
       height: 250px;
@@ -44,6 +59,7 @@
       background-color: rgb(139, 160, 244);
       border: 3px solid black;
       position: relative;
+      display: grid;
 
   }
   .container2 > .second-image{
@@ -51,11 +67,12 @@
     width: 60px;
     position: absolute;
   }
-  .container2 > p{
+  .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
-      font-size: 10px;
-      position: absolute;
-      margin-left: 60px;
+    font-size: 55%;
+    position: absolute;
+    word-wrap: break-word;
+    margin-top: 15%;
 
   }
 
@@ -65,7 +82,8 @@
     background-color: rgb(220, 220, 34);
     position: relative;
     border: 3px solid black;
-    margin-top: 10px
+    margin-top: 10px;
+    display: grid;
 
 }
 .container3 > .third-image{
@@ -73,20 +91,45 @@
   width: 60px;
   position: absolute;
 }
-.container3 > p{
+.container3 > .para3{
   font-family :'Courier New', Courier, monospace;
-      font-size: 10px;
-      position: absolute;
-      margin-left: 60px;
+      font-size: 55%;
+    position: absolute;
+    word-wrap: break-word;
+    margin-top: 15%;
 }
-  footer{
+.container4{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(244, 141, 7);
+  position: relative;
+  border: 3px solid black;
+  margin-top: 10px;
+  display: grid;
+
+}
+
+.container4 > .fourth-image{
+height: 80px;
+width: 60px;
+position: absolute;
+}
+.container4 > .para4{
+    font-family :'Courier New', Courier, monospace;
+    font-size: 55%;
+    position: absolute;
+    word-wrap: break-word;
+    margin-top: 15%;
+}
+  footer {
     text-align: center;
-    margin-top: 5px;
+    font-size: small;
+    margin-top: 60px;
 }
     
-    }
+}
 
-
+/* Desktop screen size */
     @media (min-width:481px) and (max-width:1600px){
 
       .grid-container {
@@ -94,6 +137,8 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 250px 250px;
         gap: 30px;
+
+        
       }
 
     body{
@@ -111,7 +156,7 @@
     .container1{
         width: 100%;
         height: 250px;
-        background-color: rgb(226, 188, 48);
+        background-color: rgba(250, 100, 0, 0.811);
         position: relative;
         border: 3px solid black;
 
@@ -143,21 +188,23 @@
     width: 60px;
     position: absolute;
   }
-  .container2 > p{
+  .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
-      font-size: small;
-      position: absolute;
-      margin-left: 60px;
-
+    font-size: small;
+    position: absolute;
+    margin-left: 60px;
   }
+    
+
 
   .container3{
     width: 100%;
     height: 250px;
-    background-color: rgb(220, 220, 34);
-    position: relative;
+    background-color: rgba(226, 226, 41, 0.83);
+    
     border: 3px solid black;
-    margin-top: 10px
+    margin-top: 10px;
+    position: relative;
 
 }
 .container3 > .third-image{
@@ -165,16 +212,38 @@
   width: 60px;
   position: absolute;
 }
-.container3 > p{
+.container3 > .para3{
   font-family :'Courier New', Courier, monospace;
       font-size: small;
       position: absolute;
       margin-left: 60px;
 }
+
+.container4{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(244, 141, 7);
+  position: relative;
+  border: 3px solid black;
+  margin-top: 10px;
+
+}
+
+.container4 > .fourth-image{
+height: 80px;
+width: 60px;
+position: absolute;
+}
+.container4 > .para4{
+    font-family :'Courier New', Courier, monospace;
+    font-size: small;
+    position: absolute;
+    margin-left: 60px;
+}
   footer{
     text-align: center;
     margin-top: 50px;
 }
-  }
+}
   
   
