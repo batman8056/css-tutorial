@@ -240,8 +240,10 @@ float: left;
     margin-left: 20px;
 }
   footer{
+    background-color: bisque;
     text-align: center;
     margin-top: 100%;
+    
 }
 }
   

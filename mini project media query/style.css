@@ -3,7 +3,7 @@
     @media (min-width:0px) and (max-width:480px){
       body{
         background-color: aquamarine;
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         min-height: 95vh;
         
@@ -242,6 +242,8 @@ float: left;
   footer{
     text-align: center;
     margin-top: 100%;
+    background-color: bisque;
+    width: 100%;
 }
 }
   
