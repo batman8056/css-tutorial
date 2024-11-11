@@ -48,7 +48,7 @@
     }
     .container1 > .para1{
       font-family :'Courier New', Courier, monospace;
-      font-size: 30%;
+      font-size: 40%;
       word-wrap: break-word;
       margin-top: 20px;
     }
@@ -69,7 +69,7 @@
   }
   .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
-      font-size: 60%;
+    font-size: 40%;
       word-wrap: break-word;
       margin-top: 20px;
   }
@@ -91,7 +91,7 @@
 }
 .container3 > .para3{
   font-family :'Courier New', Courier, monospace;
-  font-size: 60%;
+  font-size: 40%;
   word-wrap: break-word;
   margin-top: 20px;
 }
@@ -113,7 +113,7 @@
 }
 .container4 > .para4{
   font-family :'Courier New', Courier, monospace;
-  font-size: 60%;
+  font-size: 40%;
   word-wrap: break-word;
   margin-top: 20px;
 }
@@ -164,7 +164,7 @@
     }
     .container1 > .para1{
       font-family :'Courier New', Courier, monospace;
-      font-size: small;
+      font-size: 65%;
       margin-left: 20px;
     }
     
@@ -185,7 +185,7 @@
   }
   .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: 65%;
     margin-left: 20px;
   }
     
@@ -208,7 +208,7 @@
 }
 .container3 > .para3{
   font-family :'Courier New', Courier, monospace;
-      font-size: small;
+  font-size: 65%;
       margin-left: 20px;
 }
 
@@ -229,7 +229,7 @@ float: left;
 }
 .container4 > .para4{
     font-family :'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: 65%;
     margin-left: 20px;
 }
   footer{
