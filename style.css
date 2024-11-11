@@ -24,9 +24,9 @@
 
       
     }
+
     h4{
       text-align: left;
-      position: absolute;
     }
     
     .container1{
@@ -36,22 +36,21 @@
         background-color: rgb(226, 188, 48);
         position: relative;
         border: 3px solid black;
-        display: grid;
+        border-radius: 2.5%;
+        
 
     }
     .container1 > .first-image{
       height: 80px;
       width: 70px;
-      
-      position: absolute;
+      float: left;
 
     }
     .container1 > .para1{
       font-family :'Courier New', Courier, monospace;
-      font-size: 55%;
-      position: absolute;
+      font-size: 60%;
       word-wrap: break-word;
-      margin-top: 15%;
+      margin-top: 20px;
     }
     .container2{
       width: 100%;
@@ -60,21 +59,19 @@
       background-color: rgb(139, 160, 244);
       border: 3px solid black;
       position: relative;
-      display: grid;
+      border-radius: 2.5%;
 
   }
   .container2 > .second-image{
     height: 70px;
     width: 60px;
-    position: absolute;
+    float: left;
   }
   .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
-    font-size: 55%;
-    position: absolute;
-    word-wrap: break-word;
-    margin-top: 15%;
-
+      font-size: 60%;
+      word-wrap: break-word;
+      margin-top: 20px;
   }
 
   .container3{
@@ -84,20 +81,19 @@
     position: relative;
     border: 3px solid black;
     margin-top: 10px;
-    display: grid;
+    border-radius: 2.5%;
 
 }
 .container3 > .third-image{
   height: 80px;
   width: 60px;
-  position: absolute;
+  float: left;
 }
 .container3 > .para3{
   font-family :'Courier New', Courier, monospace;
-      font-size: 55%;
-    position: absolute;
-    word-wrap: break-word;
-    margin-top: 15%;
+  font-size: 60%;
+  word-wrap: break-word;
+  margin-top: 20px;
 }
 .container4{
   width: 100%;
@@ -106,21 +102,20 @@
   position: relative;
   border: 3px solid black;
   margin-top: 10px;
-  display: grid;
+  border-radius: 2.5%;
 
 }
 
 .container4 > .fourth-image{
-height: 80px;
-width: 60px;
-position: absolute;
+  height: 80px;
+  width: 60px;
+  float: left;
 }
 .container4 > .para4{
-    font-family :'Courier New', Courier, monospace;
-    font-size: 55%;
-    position: absolute;
-    word-wrap: break-word;
-    margin-top: 15%;
+  font-family :'Courier New', Courier, monospace;
+  font-size: 60%;
+  word-wrap: break-word;
+  margin-top: 20px;
 }
   footer {
     text-align: center;
@@ -165,13 +160,12 @@ position: absolute;
     .container1 > .first-image{
       height: 80px;
       width: 70px;
-      position: absolute;
+      float: left;
     }
     .container1 > .para1{
       font-family :'Courier New', Courier, monospace;
       font-size: small;
-      position: absolute;
-      margin-left: 60px;
+      margin-left: 20px;
     }
     
 
@@ -187,13 +181,12 @@ position: absolute;
   .container2 > .second-image{
     height: 70px;
     width: 60px;
-    position: absolute;
+    float: left;
   }
   .container2 > .para2{
     font-family :'Courier New', Courier, monospace;
     font-size: small;
-    position: absolute;
-    margin-left: 60px;
+    margin-left: 20px;
   }
     
 
@@ -211,13 +204,12 @@ position: absolute;
 .container3 > .third-image{
   height: 80px;
   width: 60px;
-  position: absolute;
+  float: left;
 }
 .container3 > .para3{
   font-family :'Courier New', Courier, monospace;
       font-size: small;
-      position: absolute;
-      margin-left: 60px;
+      margin-left: 20px;
 }
 
 .container4{
@@ -233,13 +225,12 @@ position: absolute;
 .container4 > .fourth-image{
 height: 80px;
 width: 60px;
-position: absolute;
+float: left;
 }
 .container4 > .para4{
     font-family :'Courier New', Courier, monospace;
     font-size: small;
-    position: absolute;
-    margin-left: 60px;
+    margin-left: 20px;
 }
   footer{
     text-align: center;
