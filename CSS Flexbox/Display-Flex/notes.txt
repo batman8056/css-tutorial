@@ -1,0 +1,24 @@
+Display Flex
+*************
+
+old method:-
+<table>
+<tr class="row">
+<td class="colo1" >...</td>
+<td class="colo2" >...</td>
+<td class="colo3" >...</td>
+</tr>
+</table>
+
+
+float we used image float left and content right 
+that time more use full otherwise it is complex.
+
+display: flex; it is a display property
+all the container content display in one line 
+
+when we give display flex it will accupy 100% width is block
+
+
+
+

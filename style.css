@@ -169,6 +169,7 @@
       position: relative;
       border: 3px solid black;
       border-radius:5px;
+      font-size: 1rem;
 
     }
     .container1 > .first-image{
@@ -178,7 +179,6 @@
     }
     .container1 >  .para1{
       font-family: "Arvo", cursive;
-      font-size: 15px;
     }
     
 
@@ -190,6 +190,7 @@
       border: 3px solid black;
       position: relative;
       border-radius:5px;
+      font-size: 1rem;
 
   }
   .container2 > .second-image{
@@ -199,7 +200,6 @@
   }
   .container2 > .para2{
     font-family: "Arvo", cursive;
-    font-size: 15px;
   }
     
 
@@ -212,6 +212,7 @@
     border: 3px solid black;
     margin-top: 10px;
     position: relative;
+    font-size: 1rem;
 
 }
 .container3 > .third-image{
@@ -221,7 +222,6 @@
 }
 .container3 > .para3{
   font-family: "Arvo", cursive;
-  font-size: 15px;
 }
 
 .container4{
@@ -232,6 +232,7 @@
   border: 3px solid black;
   margin-top: 10px;
   border-radius:5px;
+  font-size: 1rem;
 
 }
 
@@ -242,13 +243,12 @@ float: left;
 }
 .container4 > .para4{
     font-family: "Arvo", cursive;
-    font-size: 15px;
     
 }
   footer{
     background-color: bisque;
     text-align: center;
-    margin-top: 100%;
+    margin-top: 10%;
     
 }
 }
