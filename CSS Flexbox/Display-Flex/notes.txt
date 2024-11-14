@@ -19,6 +19,7 @@ all the container content display in one line
 
 when we give display flex it will accupy 100% width is block
 
-
+when we give display inline-flex only occupy 
+only container where it is completed
 
 
