@@ -31,4 +31,25 @@ flex item - based on width item should be come up with row
 
 content width < width < flex-basis < min-width/max/width
 
+Flex container:-
+
+display:flex;
+gap:10px;
+
+
+
+Flex items:-
+
+width: 100px;
+
+
+if we use flex-basis:200px; each and every items width 200px
+
+if we use max-width:100px; each and every items width 100px
+
+flex-grow:1 ;
+
+flex-shrink:1;
+
+flex: 1 1 0; (grow, shrink, basis)
 
