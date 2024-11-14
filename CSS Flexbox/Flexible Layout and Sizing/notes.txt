@@ -1,0 +1,34 @@
+Flexible Layout
+****************
+
+Align justify and wrap
+-----------------------
+
+parent is container
+
+child is item
+
+order:5; it will go fifth place of the chils automatically
+
+
+flex-wrap: nowrap; item not wrap to next line 
+
+flex-wrap: wrap; item wrap to next line
+
+https://appbrewery.github.io/flexboxfroggy/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+Flex Sizing 
+-------------
+
+Shrinking and Growing:-
+
+flex item - based on width item should be come up with row
+
+
+content width < width < flex-basis < min-width/max/width
+
+
