@@ -1,0 +1,17 @@
+Display Grid
+***************
+
+we spilt multiple container where ever 
+we want we place the size of the Grid
+
+rows and columns
+
+Flexbox is the one dimension alignment
+
+Grid is 2 dimensional alignment
+
+
+Flexbox + Grid combine can be 
+most attractive webside created
+
+
