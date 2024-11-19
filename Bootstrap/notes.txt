@@ -57,5 +57,7 @@ https://getbootstrap.com/docs/5.3/components/buttons/#base-class
 
 Spacing
 --------
+Spacing utilities that apply to all breakpoint, from xs to xxl have no breakpoint abbreviation in them.
+
 
 
