@@ -28,6 +28,7 @@ Bootstrap Layout
 ****************
 
 Bootstrap container:-
+class name 
  .container (small to xx-large)
  .container-md (medium to xx-large)
  .container-lg (large to xx-large)
@@ -40,8 +41,21 @@ we don't need media query here this are
 the feature can handle all the flexibility of the website.
 pre-defined Breakpoints 
 
-col-sm
-col-md
-col-xl
-col-xxl
+col-sm -12
+col-md-6
+col-xl-3
+col-xxl-6
+
+Bootstrap components:-
+**********************
+
+Bootstrap class in to html we can create modern web site
+
+Buttons
+-------
+https://getbootstrap.com/docs/5.3/components/buttons/#base-class
+
+Spacing
+--------
+
 
